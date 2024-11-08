@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/tabla.css">
+    <link rel="stylesheet" href="/css/multiplicar.css">
+    <title>Examen Unidad II</title>
+</head>
+<body>
+    <h1>Registro de Presion Arterial de Jose Hernandez</h1>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Dia</th>
+                <th>Presion Arterial</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <p id="promedio"></p>
+    <p id="estado"></p>
+
+    <br>
+    <br>
+
+    <center>
+    <div class="calculadora">
+        <h2>Calculadora de Tablas de Multiplicar</h2>
+        <span>Selecciona la tabla de multiplicar:</span>
+        <br>
+        <select id="idOpcion">
+            <!-- Opciones del 1 al 10 -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        <button id="btnCalcular">Calcular</button>
+        <br>
+        <button id="btnLimpiar">Limpiar</button>
+        <br>
+        <label id="resultado">Resultado:</label>
+    </div>
+    </center>
+
+<script src="/js/tabla.js"></script>
+<script src="/js/multiplicar.js"></script>
+</body>
+</html>
